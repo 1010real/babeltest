@@ -57,3 +57,11 @@ gulp watch
 ```
 何も表示されませんが、ソースを見るとES6で書いたコードがES5に変換されてます。
 ブレークポイントを設置すると、sourcemaps経由で元ソースの場所へ自動的にブレークポイントが設定されます。
+
+### 以降は以下を参考に
+
+[http://sba-netgame.dmm.com/pc/](ES6時代のJavaScript)
+
+[http://kangax.github.io/compat-table/es6/](各ブラウザのEcmaScript対応状況)
+
+[http://azu.github.io/promises-book/](JavaScript Promiseの本)

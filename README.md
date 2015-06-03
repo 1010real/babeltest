@@ -1,4 +1,4 @@
-## React sample with webpack.
+## Babel sample with sourcemaps.
 
 ### 1. nodeをインストール
 
@@ -31,16 +31,16 @@ gulp -v
 ### 3. リポジトリをclone
 
 ```
-git clone git@github.com:1010real/reacttest.git
+git clone git@github.com:1010real/babeltest.git
 or 
-git clone https://github.com/1010real/reacttest.git
+git clone https://github.com/1010real/babeltest.git
 ```
 ※githubを既に使っていて、githubサーバにログイン出来る人は上
 
 ### 4. 必要なモジュールをインストール
 
 ```
-cd reacttest
+cd babeltest
 npm install
 ```
 
@@ -55,5 +55,5 @@ gulp build
 ```
 gulp watch
 ```
-
-「not clicked」 と表示され、クリックしたら「clicked」と表示が変わればとりあえず動いてます。
+何も表示されませんが、ソースを見るとES6で書いたコードがES5に変換されてます。
+ブレークポイントを設置すると、sourcemaps経由で元ソースの場所へ自動的にブレークポイントが設定されます。

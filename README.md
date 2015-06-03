@@ -11,7 +11,7 @@
 node -v
 v0.12.2
 npm -v
-2.7.4 
+2.7.4
 ```
 
 ### 2. gulpをインストール
@@ -32,7 +32,7 @@ gulp -v
 
 ```
 git clone git@github.com:1010real/babeltest.git
-or 
+or
 git clone https://github.com/1010real/babeltest.git
 ```
 ※githubを既に使っていて、githubサーバにログイン出来る人は上
@@ -60,8 +60,8 @@ gulp watch
 
 ### 以降は以下を参考に
 
-[http://sba-netgame.dmm.com/pc/](ES6時代のJavaScript)
+[ES6時代のJavaScript](http://sba-netgame.dmm.com/pc/)
 
-[http://kangax.github.io/compat-table/es6/](各ブラウザのEcmaScript対応状況)
+[各ブラウザのEcmaScript対応状況](http://kangax.github.io/compat-table/es6/)
 
-[http://azu.github.io/promises-book/](JavaScript Promiseの本)
+[JavaScript Promiseの本](http://azu.github.io/promises-book/)

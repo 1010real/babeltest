@@ -60,7 +60,7 @@ gulp watch
 
 ### 以降は以下を参考に
 
-[ES6時代のJavaScript](http://sba-netgame.dmm.com/pc/)
+[ES6時代のJavaScript](http://techlife.cookpad.com/entry/2015/02/02/094607)
 
 [各ブラウザのEcmaScript対応状況](http://kangax.github.io/compat-table/es6/)
 
